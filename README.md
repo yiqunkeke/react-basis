@@ -1,102 +1,68 @@
-# React-basis
-react入门基础与案例开发@parry-react入门与实战
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
+In the project directory, you can run:
 
-## React 简介
+### `npm start`
 
-基本概念 + 实战
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- JS、ES5、ES6、CSS、H5 的梳理
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-- NodeJS的简介与安装
+### `npm test`
 
-- Webpack的简介安装与配置
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- 前端开发工具 ant
+### `npm run build`
 
-  
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## React 基础知识
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-- **React 组件基础**
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-  1.  React 虚拟 DOM概念，这是 React 性能高效的核心算法
-  2.  React 组件，理解什么叫做组件化
-  3.  React 多组件嵌套
-  4.  JSX 内置表达式
-  5.  生命周期，纵观整个 React 的生命周期
+### `npm run eject`
 
-- **React 属性与事件**
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-  1.  State 属性，控制着 React 的一切 
-  2.  Props 属性
-  3. 事件与数据的双向绑定，包含了父子页面之间的参数互传
-  4. 可复用组件，真正让 React 开发快速、高效的地方
-  5.  组件的 Refs
-  6. 独立组件间的共享 Mixins
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- **React 样式**
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-  1. 内联样式
-  2. 内联样式中的表达式
-  3. CSS模块化，学习如何使用 require 进行样式的引用
-  4. JSX 样式与 CSS 的互转
-  5. 一个非常好用的样式框架 Ant Design 样式框架介绍
-  6. Ant Design 样式框架使用
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-- **React Router**
+## Learn More
 
-  1. Router 概念
-  2. Router 参数传递
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-  
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## 项目实战部分
+### Code Splitting
 
-- 开发环境的初始化
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-- logo 的选择
+### Analyzing the Bundle Size
 
-- 样式库的选择
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-- 数据接口API的定义
+### Making a Progressive Web App
 
-- 页头页脚的响应式开发
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-- 登录注册模块
+### Advanced Configuration
 
-- 首页列表详情模块
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-- 评论收藏模块
+### Deployment
 
-- 个人中心的实现
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-  
+### `npm run build` fails to minify
 
-## 项目实战之最后调优
-
-- 此项目的二次开发
-
-- 提问的方式
-
-- 开发规范
-
-- API接口
-
-- 测试使用
-
-- 对样式的基本追求
-
-- 网页性能调优的雅虎军规
-
-- 对前端性能规范的检测并实现的方法
-
-  
-
-
-
-
-
-
-
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
